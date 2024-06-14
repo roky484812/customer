@@ -1,5 +1,6 @@
 {
     "name": "roky/customer-update",
+    "version": "1.0.0",
     "description": "this is a package to update a customer's data",
     "type": "library",
     "license": "MIT",
