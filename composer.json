@@ -1,0 +1,27 @@
+{
+    "name": "roky/customer-update",
+    "description": "this is a package to update a customer's data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roky\\CustomerUpdate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roky",
+            "email": "roky484812@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roky\\CustomerUpdate\\Providers\\UpdateCustomerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
